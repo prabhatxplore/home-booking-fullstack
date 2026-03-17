@@ -13,6 +13,54 @@ A fullstack home booking system web application. Where users can view, browse an
 - Host Dashboard
 - Host can manually confirm booking
 
+## Docker Image
+Front End and Backend : https://hub.docker.com/r/xploreprabhat/home-booking-fullstack
+
+## Getting Started\
+Install Docker
+Create Stripe Account
+### Step 1 — Clone the repo
+```
+git clone https://github.com/your-username/home-booking-fullstack.git
+cd home-booking-fullstack
+```
+
+### Step 2 — Create environment files
+
+Create `./backend/.env`:
+```
+PORT=3000
+MONGO_URL = "mongodb://mongo:27017/airbnbLocal"
+PORT = 3000
+HOST = 0.0.0.0
+SESSION_SECRET = your secret key
+STRIPE_SECRET = your secret key
+
+
+STRIPE_WEBHOOK_SECRET = webhook secret
+```
+
+Create `./client/.env`:
+```
+VITE_API_URL=http://localhost:3000
+```
+Stripe publishable key
+```
+VITE_STRIPE_PUBLISHABLE_KEY=**********
+```
+
+### Step 3 — Run the app
+```
+docker compose up --build
+```
+
+### Step 4 — Open your browser
+```
+Frontend → http://localhost:5173
+Backend  → http://localhost:3000
+```
+
+
 ## Screenshots
 
 Client view
