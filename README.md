@@ -77,7 +77,24 @@ Host view
 <img width="1626" height="834" alt="Screenshot 2026-03-17 233317" src="https://github.com/user-attachments/assets/3d5f3870-698a-441c-b6a0-677131e02f85" />
 <img width="1895" height="905" alt="Screenshot 2026-03-17 233426" src="https://github.com/user-attachments/assets/6f152df2-6e8a-42fb-9684-1b60bea4d55e" />
 
+## Status
 
+ **This project is not a complete working app for production ** but demonstrates the core functionality of a home booking system.
+
+ ### What Works
+- ✅ User login & register
+- ✅ Browse available homes
+- ✅ Dashboard for the hosts
+- ✅ Book a home
+- ✅ REST API with Express
+- ✅ MongoDB database
+- ✅ Dockerized with Docker Compose
+- ✅ Payment with stripe
+- ✅ Prevents double payments
+  
+## 🤝 Contributing
+
+Feel free to use this project, fork it, and build on top of it!
 
 ## License
 MIT
