@@ -27,8 +27,8 @@ Host view
 
 
 <img width="1626" height="834" alt="Screenshot 2026-03-17 233317" src="https://github.com/user-attachments/assets/3d5f3870-698a-441c-b6a0-677131e02f85" />
+<img width="1895" height="905" alt="Screenshot 2026-03-17 233426" src="https://github.com/user-attachments/assets/6f152df2-6e8a-42fb-9684-1b60bea4d55e" />
 
-<img width="1626" height="834" alt="Screenshot 2026-03-17 233317" src="https://github.com/user-attachments/assets/896caa89-a899-4a76-9229-4d0b3cc8ca6b" />
 
 
 ## License
